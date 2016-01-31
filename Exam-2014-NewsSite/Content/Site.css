@@ -1,0 +1,47 @@
+﻿
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+.like-control {
+    margin: 20px 0 0 0;
+}
+
+    .like-control .like-value {
+        font-size: 24px;
+        text-align: center;
+        width: 40px;
+        display: inline-block;
+    }
+
+.row {
+    margin-top: 10px;
+}
